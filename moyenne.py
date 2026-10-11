@@ -22,8 +22,9 @@ def moyenne(valeurs):
 
     ---
     """
-    print("!! TODO : Compléter la fonction moyenne !!", end=" ")
-    pass
+    moy += i for i in valeurs
+    return moy /len(valeurs)
+    
 
 
 if __name__ == "__main__":

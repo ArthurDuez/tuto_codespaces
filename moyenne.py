@@ -26,7 +26,7 @@ def moyenne(valeurs):
     for i in valeurs:
         moy += i
     return moy/len(valeurs)
-print(moyene([1,2,3]))
+print(moyenne([1,2,3]))
     
 
 

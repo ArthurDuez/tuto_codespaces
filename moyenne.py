@@ -22,8 +22,11 @@ def moyenne(valeurs):
 
     ---
     """
-    moy += i for i in valeurs
-    return moy /len(valeurs)
+    moy = 0
+    for i in valeurs:
+        moy += i
+    return moy/len(valeurs)
+print(moyene([1,2,3]))
     
 
 

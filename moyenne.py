@@ -22,6 +22,8 @@ def moyenne(valeurs):
 
     ---
     """
+    if len(valeurs)==0:
+        return None
     moy = 0
     for i in valeurs:
         moy += i
